@@ -38,7 +38,7 @@ function RegistroForm() {
                     placeholder="Inserte su nombre..."
                     data-sb-validations="required"
                   />
-                  <label for="Nombre-completo">Nombre completo</label>
+                  <label htmlFor="Nombre-completo">Nombre completo</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="Nombre-completo:required"
@@ -55,7 +55,7 @@ function RegistroForm() {
                     placeholder="nombre@example.com"
                     data-sb-validations="required,Correo-electronico"
                   />
-                  <label for="Correo-electronico">Correo electronico</label>
+                  <label htmlFor="Correo-electronico">Correo electronico</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="Correo-electronico:required"
@@ -78,7 +78,7 @@ function RegistroForm() {
                     placeholder="Inserte contraseña"
                     data-sb-validations="required,Contraseña"
                   />
-                  <label for="Contraseña">Contraseña</label>
+                  <label htmlFor="Contraseña">Contraseña</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="Contraseña:required"
@@ -101,7 +101,7 @@ function RegistroForm() {
                     placeholder="Confirmar contraseña"
                     data-sb-validations="required,Cofirmar-contraseña"
                   />
-                  <label for="Confirmar-contraseña,">
+                  <label htmlFor="Confirmar-contraseña,">
                     Confirmar contraseña
                   </label>
                   <div
@@ -126,7 +126,7 @@ function RegistroForm() {
                     placeholder="(123) 456-7890"
                     data-sb-validations="required"
                   />
-                  <label for="Cedula-NIT">Cedula/NIT</label>
+                  <label htmlFor="Cedula-NIT">Cedula/NIT</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="Cedula-NIT:required"
@@ -143,7 +143,7 @@ function RegistroForm() {
                     placeholder="Inserte direccion"
                     data-sb-validations="required"
                   />
-                  <label for="Direccion">Dirección</label>
+                  <label htmlFor="Direccion">Dirección</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="Direccion:required"
@@ -160,7 +160,7 @@ function RegistroForm() {
                     placeholder="Inserte nombre de empresa"
                     data-sb-validations="required"
                   />
-                  <label for="Empresa">Empresa</label>
+                  <label htmlFor="Empresa">Empresa</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="Telefono:required"
@@ -177,7 +177,7 @@ function RegistroForm() {
                     placeholder="(123) 456-7890"
                     data-sb-validations="required"
                   />
-                  <label for="Telefono">Telefono</label>
+                  <label htmlFor="Telefono">Telefono</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="Telefono:required"

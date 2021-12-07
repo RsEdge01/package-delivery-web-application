@@ -41,7 +41,7 @@ const LoginForm = () => {
                     placeholder="nombre@example.com"
                     data-sb-validations="required,Correo-electronico"
                   />
-                  <label for="Correo-electronico">Correo electronico</label>
+                  <label htmlFor="Correo-electronico">Correo electronico</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="Correo-electronico:required"
@@ -64,7 +64,7 @@ const LoginForm = () => {
                     placeholder="Inserte contraseña"
                     data-sb-validations="required,Contraseña"
                   />
-                  <label for="Contraseña">Contraseña</label>
+                  <label htmlFor="Contraseña">Contraseña</label>
                   <div
                     className="invalid-feedback"
                     data-sb-feedback="Contraseña:required"
